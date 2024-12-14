@@ -1,0 +1,77 @@
+@media (max-width: 768px) {
+    .container-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .header-title {
+        font-size: 17px;
+    } 
+    .header-description {
+        font-size: 12px;
+    }
+    .header-about-link {
+        font-size: 12px;
+    }
+    
+    .header-logo {
+        width: 50px;
+        height: 50px;
+        border: none;
+    }
+
+
+    /* main */
+
+    .main-title {
+        font-size: 17px;
+    }
+
+    .input-task {
+        width: 150px;
+        height: 30px;
+    }
+
+    .item-task {
+        font-size: 14px;
+        width: 150px;
+    }
+}
+
+/* mobile */
+
+@media (max-width: 425px) {
+    .header-title {
+        font-size: 15px;
+    }
+    .header-about-link {
+        font-size: 10px;
+    }
+
+    .header-logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .container-btn {
+        display: flex;
+        flex-direction: ROW;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .input-task {
+        width: 125px;
+        height: 25px;
+        font-size: 12px;
+        text-align: center;
+        padding: 0 5px;
+    }
+
+    .btn-add {
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
